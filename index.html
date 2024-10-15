@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Q1 Quiz2</title>
+
+<style type=text/css>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+	.header
+
+{
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+	text-align:  center;
+	background-color: rgba(229,185,20,.5);
+	background-image: url(https://img.freepik.com/premium-photo/starry-night-pattern-inspired-by-van-gogh_956414-1566.jpg?w=1380);
+	margin-bottom: 20px;
+}
+
+	body {
+			text-align: center;
+			color:#00135;
+			background-color:#CB9D06;
+		}
+
+	.cast{
+		padding: 40px 20px;
+		text-align: center;
+	}
+	.cast-cards{
+		display: flex;
+   		justify-content: center;
+   		gap: 20px;
+    	flex-wrap: wrap;
+	}
+	.cast-cards .card {
+    background-color: #f0f0f0;
+    color: #333;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+	.cast-cards .card img {
+    width: 100px;
+    border-radius: 5px;
+}
+
+	h1{
+		color: #e5b902;
+	 text-align: center;
+
+	}
+	
+
+
+	.title{
+			text-align: left;
+		}
+	h2{
+		color: #003153; 
+		text-align: center;
+}
+
+
+
+	ul{list-style: none;}
+		.cast{display:inline;
+}
+ .container{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+}            
+.form-elements{
+	isplay: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 15px; 
+}
+
+	img {
+    display: block;
+    margin: 0 auto;
+  }
+	</style>
+</head>
+</head>
+	<body style="background-color:#CB9D06; font-family:Montserrat; color:#003153">
+		<div class="header">
+			<h1 >Loving Vincent</h1>
+		</div>
+
+		<img src="https://upload.wikimedia.org/wikipedia/en/4/4b/Loving_Vincent.png" width=200>
+		
+ <p>
+ 	<p font-weight: bold;> <strong> Loving Vincent</strong> is a film about Vincent Van Gogh's death, and a some what detective ,Armand Roulin, who attempts to deliver Vincent Van Gogh's letter to his brother ,Theo Van Gogh, the letter was about a preview of his portait, "Portrait of a Peasant", he described what led him to make the painting.<br>In his journey he learns more and more about the artist, he learns things like how he was excluded, misunderstood, and his psychological problems.</br>
+ <br/>
+
+		<section class="cast">
+			<h2>Cast/Characters</h2>
+		<div class="cast-cards">
+			<div class="card">
+        		<img src="https://d1nslcd7m2225b.cloudfront.net/Pictures/780xany/9/1/3/1273913_douglasboothasarmandroulin.courtesyofmongrelmedia_743323.jpg "
+				alt="Armand Roulin/Douglas Booth"width=150>
+    				<a href="https://lovingvincent.com/armand-roulin,237,pl.html"target="_blank">Armand Roulin/Douglas Booth</a>
+    					</div>
+
+	
+		<div class="card">
+      		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3f3u3t0UhiUFOkao_A1ACIQ7OVmjaDEx-qg&s"
+			alt="Vincent Van Gogh" height=100>
+				<a href="https://www.britannica.com/biography/Vincent-van-Gogh"target="_blank">Vincent Van Gogh</a>
+					</div>
+		
+		<div class="card">
+        	<img src="https://rainb0w.lovingvincent.com/files/high-res/PA000457_16_high-res-web.jpg" 
+ 			alt="Dr. Mazery/Bill Thomas"width=150 height=100>
+     		<a href="https://lovingvincent.com/bill-thomas,32,pl.html "target="_blank">Dr. Mazery/Bill Thomas</a>
+     			</div>
+     	  </div>
+    </section>
+
+
+
+<div class="container">
+	<h3>What are your thoughts about the movie?</h3>
+		<form action="#" method="post">
+            <label for="comments">Comments/Suggestions</label>
+            <textarea id="comments" name="comments" placeholder="Write your thoughts here..."></textarea>
+            <br>
+        </form>
+            <label for="movie-recommendations">Movie Recommendations</label>
+            <select id="movie-recommendations" name="movie-recommendations">
+                <option value="mario">Memento</option>
+                <option value="mario">12 angry men</option>
+                <option value="mario">Interstellar</option>
+             <br>
+            </select>
+            <label for="other-recommendation">Got Another Recommendation?</label>
+            <input type="text" id="other-recommendation" name="other-recommendation" placeholder="Input Movie Title Here">
+            <br>
+            <div>
+            	<input type="submit" value="SUBMIT">
+            </div>
+           </form>
+           <div class="footer">
+         
+           	Submitted by: Ishan Justice Q. Shrestha | 9-Sapphire
+        </div>
+    </div>
+
+</body>
+</html>
